@@ -154,9 +154,15 @@ button:hover {
     transform: translate3d(0px, 0px, 0px) !important;
   }
 
+  .swiper-slide {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
   .brands__table {
     transform: translate3d(0px, 0px, 0px) !important;
     display: grid;
+    gap: 16px 32px;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 24px;
     max-height: 150px;
@@ -164,8 +170,9 @@ button:hover {
 
   .brands__table--fullsize {
     transform: translate3d(0px, 0px, 0px) !important;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 32px;
     margin-bottom: 24px;
   }
 
